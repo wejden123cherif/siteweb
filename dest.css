@@ -265,3 +265,24 @@ header {
 .submit-btn:hover {
     background-color: #4a3796;
 }
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+footer h2 {
+    color: lightblue;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    color: lightblue;
+}
