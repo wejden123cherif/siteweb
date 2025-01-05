@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de voyage</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img id=logo src="travel2.jpg" alt="logo"> 
+            <p>Travel Together</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Acceuil</a></li>
+                <li><a href="">A propos</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#popup" id="reser">Reservation</a>
+    </header>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Réservation</h2>
+            <form class="reservation-form">
+                <div class="form-group">
+                    <label>Nom complet</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" required>
+                </div>
+                <div class="form-group">
+                    <label>Téléphone</label>
+                    <input type="tel" required>
+                </div>
+                <div class="form-group">
+                    <label>Destination</label>
+                    <select required>
+                        <option value="">Choisir une destination</option>
+                        <option value="paris">Paris</option>
+                        <option value="london">Londres</option>
+                        <option value="tokyo">Tokyo</option>
+                        <option value="newyork">New York</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Date de départ</label>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <label>Nombre de personnes</label>
+                    <input type="number" min="1" required>
+                </div>
+                <button type="submit" class="submit-btn">Réserver</button>
+            </form>
+        </div>
+    </div>
+
+    <section id="home">
+        <h2>Nous suivre</h2>
+        <h4>Voyagez en Sécurité</h4>
+        <p>Notre agence de voyage vous offre des expériences uniques et mémorables ,</p>
+        <p>alliant confort, sécurité et découverte des plus belles destinations à travers le monde.</p>
+    </section>
+
+    <footer class="details">
+        <h2>Nous Contacter</h2>
+        <div class="contact-info">
+            <p><strong>Email :</strong> contact@gmail.com</p>
+            <p><strong>Téléphone :</strong> +216 123 456 789</p>
+            <p><strong>Adresse :</strong> Rue Mohammed V, Tunis, Tunisie</p>
+        </div>
+    </footer>
+</body>
+</html>

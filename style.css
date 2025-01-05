@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    border-bottom: 2px solid #444;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: lightblue;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+/* Text Section */
+.text-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Image Section */
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.image-section .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #444;
+    transition: transform 0.3s;
+}
+
+.image-section .image:hover {
+    transform: scale(1.05);
+}
+
+/* Table Section */
+.table-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: lightblue;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table th, table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #222;
+    color: lightblue;
+}
+
+table tr:nth-child(even) {
+    background-color: #111;
+}
+
+table tr:hover {
+    background-color: #333;
+}
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    color: lightblue;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    color: lightblue;
+}
