@@ -3,6 +3,10 @@ body, ul, li, p, h2, h4 {
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image:url("back2.jpg");
+    
+ }
 html {
     scroll-behavior: smooth;
 }
@@ -68,10 +72,7 @@ header {
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
-body{
-   background-image:url("back2.jpg");
-   
-}
+
 .find_trip {
     
     padding: 20px;
