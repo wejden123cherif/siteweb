@@ -71,7 +71,7 @@ header {
 }
 
 #home {
-    background: linear-gradient(rgba(0,0,0,0.1),#171717),url("im3.jpg") no-repeat center center/cover;
+    background:linear-gradient(rgba(150, 143, 143, 0.1),#171717),url("im1.jpg") no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
